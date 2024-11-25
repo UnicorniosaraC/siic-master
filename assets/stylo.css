@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2efe9;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff8e1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    color: #d47500;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #ff8200;
+    color: white;
+}
+
+.table td {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+}
+
+.btn-custom {
+    background-color: #e67e22;
+    border-color: #e67e22;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.btn-custom:hover {
+    background-color: #d35400;
+    border-color: #d35400;
+}
+
+.btn-success {
+    background-color: #4caf50;
+    border-color: #4caf50;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.btn-warning:hover {
+    background-color: #ec971f;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+#searchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#searchInput {
+    max-width: 300px;
+    border-radius: 0;
+    display: block;
+}
+
+#searchInput:focus {
+    border-color: #e67e22;
+    box-shadow: none;
+}
+
+.bi-search {
+    font-size: 18px;
+    color: white;
+}
+
+.bi-search:hover {
+    color: white;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.dropdown-menu {
+    background-color: #fff8e1;
+    border-color: #e67e22;
+}
+
+.dropdown-item {
+    color: #e67e22;
+}
+
+.dropdown-item:hover {
+    background-color: #e67e22;
+    color: white;
+}
+
+.no-caret::after {
+    display: none !important;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f8f9fa; /* Color de fondo claro */
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #6c757d; /* Color de texto apagado */
+}
+
